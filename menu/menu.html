@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MENU </title>
+    <style>
+      h1 {
+        text-align: center;
+        padding-bottom: 70px;
+      }
+
+      h2 {
+        padding-left: 50px;
+      }
+
+      span {
+        padding-right: 5px;
+      }
+
+      #content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      #breakfast {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       }
+       #breakfast img{
+         border-radius: 50%;
+        max-width: 110px;
+        border: 1px dashed #ddd;
+        padding: 3px;
+        margin-right: 15px;
+        transition: .3s;
+      }
+      #breakfast  :hover img{
+        transform: rotate(360deg);
+      }
+
+      #lunch {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      #lunch img{
+        border-radius: 50%;
+        max-width: 110px;
+        border: 1px dashed #ddd;
+        padding: 3px;
+        margin-right: 15px;
+        transition: .3s;
+      }
+      #lunch :hover img{
+        transform: rotate(360deg);
+      }
+
+      #dinner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 25px;
+      }
+      #dinner img{
+         border-radius: 50%;
+        max-width: 110px;
+        border: 1px dashed #ddd;
+        padding: 3px;
+        margin-right: 15px;
+        transition: .3s;
+      }
+      #dinner :hover img{
+        transform: rotate(360deg);
+      }
+
+      #item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+      }
+
+      @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [id="content"] {
+    flex-direction: column;
+  }
+}
+        
+  
+    </style>
+  </head>
+  <body>
+    <h1>MENU CARD </h1>
+    <div id="content">
+      <section id="breakfast">
+        <h2>Breakfast</h2>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/idli.jpg" height="100" width="100">
+          </span>
+          <span id="description">IDLI (2pcs)</span>
+          <span id="description"> ........25</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/dosa.jpg" height="100" width="100">
+          </span>
+          <span id="description">DOSA</span>
+          <span id="description">.............40</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/ven pongal.jpg" height="100" width="100">
+          </span>
+          <span id="description">PONGAL</span>
+          <span id="description">.........50</span>
+        </div>
+      </section>
+      <section id="lunch">
+        <h2>Lunch</h2>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/Veg-Biryani-in-Pressure-Cooker-6.jpg" height="100" width="100">
+          </span>
+          <span id="description">VEG BIRIYANI</span>
+          <span id="description">...........8O</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/Chicken-biryani-recipe-2.jpg" height="100" width="100">
+          </span>
+          <span id="description">CHICKEN RICE</span>
+          <span id="description">............120</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/m ch.jpg" height="100" width="100">
+          </span>
+          <span id="description">MUTTON BIRIYANI</span>
+          <span id="description">.........200</span>
+        </div>
+      </section>
+      <section id="dinner">
+        <h2>Dinner</h2>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/veg fried rice.jpg" height="100" width="100">
+          </span>
+          <span id="description">VEG FRIED RICE</span>
+          <span id="description">.......120</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/egg-fried-rice-recipe.jpg" height="100" width="100">
+          </span>
+          <span id="description">EGG FRIED RICE</span>
+          <span id="description">.........130</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/szechuan-chicken-fried-rice.jpg" height="100" width="100">
+          </span>
+          <span id="description">CHICKEN FRIED RICE</span>
+          <span id="description">.....150</span>
+        </div>
+      </section>
+    </div>
+    <div id="content">
+      <section id="breakfast">
+        <h2></h2>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/poori.jpg" height="100" width="100">
+          </span>
+          <span id="description">POORI (2pcs)</span>
+          <span id="description"> ........25</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/rava-dosai.jpg" height="100" width="100">
+          </span>
+          <span id="description">RAVA DOSA</span>
+          <span id="description">.............40</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/ghee dosai.jpg" height="100" width="100">
+          </span>
+          <span id="description">GHEE DOSA</span>
+          <span id="description">.........50</span>
+        </div>
+      </section>
+      <section id="lunch">
+        <h2></h2>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/m.jpg" height="100" width="100">
+          </span>
+          <span id="description">FULL MEALS</span>
+          <span id="description">...........8O</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/tomato rice.jpg" height="100" width="100">
+          </span>
+          <span id="description">MIXED RICE</span>
+          <span id="description">............120</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/Spicy-Mushroom-Fried-Rice.jpg" height="100" width="100">
+          </span>
+          <span id="description">MUSHROOM BIRIYANI</span>
+          <span id="description">.........120</span>
+        </div>
+      </section>
+      <section id="dinner">
+        <h2></h2>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/gobi rice.jpg" height="100" width="100">
+          </span>
+          <span id="description">GOBI FRIED RICE</span>
+          <span id="description">.......120</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/Gobi-Manchurian-cover-photo-on-white-tile-1-of-1.jpg" height="100" width="100">
+          </span>
+          <span id="description">GOBI MANCHURIAN</span>
+          <span id="description">.........130</span>
+        </div>
+        <div id="item">
+          <span id="image">
+            <img src="assets/img/Mushroom_Manchurian_Recipe_Dry_Indo_Chinese_Indian_Chinese_10.jpg" height="100" width="100">
+          </span>
+          <span id="description">MUSHROOM MANCHURIAN</span>
+          <span id="description">.....130</span>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
